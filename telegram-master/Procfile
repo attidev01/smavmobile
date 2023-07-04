@@ -1,0 +1,2 @@
+web: gunicorn device.wsgi
+worker: python manage.py bot
